@@ -1,0 +1,30 @@
+{
+  "_comment": "Farmer's Delight 2.3.0 whitelists #c:is_wet/overworld (NEW convention). Both Regions Unexplored AND Oh The Biomes We've Gone populate the OLD convention (c:wet / c:climate_wet), so neither matched and wild rice generated in zero modded biomes. Both listed explicitly here. BWG oceans (lush_stacks, dead_sea) deliberately excluded, as RU's were.",
+  "replace": false,
+  "values": [
+    "regions_unexplored:bayou",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:fen",
+    "regions_unexplored:fungal_fen",
+    "regions_unexplored:marsh",
+    "regions_unexplored:muddy_river",
+    "regions_unexplored:old_growth_bayou",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:redwoods",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:sparse_redwoods",
+    "regions_unexplored:tropical_river",
+    "regions_unexplored:tropics",
+    "biomeswevegone:bayou",
+    "biomeswevegone:cypress_swamplands",
+    "biomeswevegone:cypress_wetlands",
+    "biomeswevegone:white_mangrove_marshes",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:overgrowth_woodlands",
+    "biomeswevegone:redwood_thicket"
+  ]
+}

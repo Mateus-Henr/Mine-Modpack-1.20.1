@@ -1,0 +1,29 @@
+{
+  "_comment": "Hearthbound: Regions Unexplored + Oh The Biomes We've Gone biomes for Croptopia's grape. Croptopia ships no byg: entries for this crop, so BWG ids were derived from the climate classes of its vanilla biomes (forest). RU ids preserved from the earlier RU pass. replace:false merges with Croptopia's own vanilla list.",
+  "replace": false,
+  "values": [
+    "regions_unexplored:autumnal_maple_forest",
+    "regions_unexplored:blackwood_taiga",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:magnolia_woodland",
+    "regions_unexplored:maple_forest",
+    "regions_unexplored:orchard",
+    "regions_unexplored:pine_slopes",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:silver_birch_forest",
+    "regions_unexplored:temperate_grove",
+    "regions_unexplored:willow_forest",
+    "biomeswevegone:ebony_woods",
+    "biomeswevegone:enchanted_tangle",
+    "biomeswevegone:forgotten_forest",
+    "biomeswevegone:orchard",
+    "biomeswevegone:overgrowth_woodlands",
+    "biomeswevegone:redwood_thicket",
+    "biomeswevegone:sakura_grove",
+    "biomeswevegone:skyris_vale",
+    "biomeswevegone:weeping_witch_forest",
+    "biomeswevegone:zelkova_forest"
+  ]
+}

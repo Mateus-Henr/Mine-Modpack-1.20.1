@@ -1,0 +1,26 @@
+{
+  "music.deeperdarker.deeplands": {
+    "sounds": [
+      "deeperdarker:ambience/otherside/deeplands"
+    ]
+  },
+  "music.deeperdarker.echoing_forest": {
+    "sounds": [
+      "deeperdarker:ambience/otherside/echoing_forest"
+    ]
+  },
+  "music.deeperdarker.overcast_columns": {
+    "sounds": [
+      "deeperdarker:ambience/otherside/overcast_columns"
+    ]
+  },
+  "ambience.portal.groan": {
+    "sounds": [
+      "deeperdarker:ambience/portal/groan1",
+      "deeperdarker:ambience/portal/groan2",
+      "deeperdarker:ambience/portal/groan3",
+      "deeperdarker:ambience/portal/groan4"
+    ],
+    "subtitle": "subtitles.ambient.portal.groan"
+  }
+}

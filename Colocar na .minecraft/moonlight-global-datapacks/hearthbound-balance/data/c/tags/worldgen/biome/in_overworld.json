@@ -1,0 +1,7 @@
+{
+  "_comment": "Mythic Metals gates 17 of its ores (adamantite, banglum, carmot, kyber, calcite_kyber, mythril, orichalcum, manganese, platinum, quadrillum, runite, deepslate_runite, silver, starrite, tin, unobtainium, morkite) behind mythicmetals:mythic_ore_biomes, whose only entry is #c:in_overworld. No installed jar (not Mythic Metals itself, not Regions Unexplored, not vanilla) ever defines c:in_overworld, so that tag was completely empty and none of those 17 ores generated anywhere in the Overworld — vanilla biomes or RU biomes. Populated with #minecraft:is_overworld, which both vanilla and RU's 66 land/water biomes already join, restoring the intended 'generates throughout the overworld' behavior.",
+  "replace": false,
+  "values": [
+    "#minecraft:is_overworld"
+  ]
+}

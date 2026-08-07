@@ -1,0 +1,43 @@
+{
+  "_comment": "Hearthbound: dungeons-and-taverns-3.0.3.f.jar hardcodes this structure's biomes as an INLINE list, so no datapack tag merge can reach it — it generated ONLY in minecraft:mangrove_swamp, in RU territory as much as in BWG's. Full-file override, identical to stock except the biomes list. mangrove-specific, same reasoning as firewatch_tower_mangrove. Re-derive from the jar with .claude/tools/gen-inline-structure-overrides.js if the mod updates.",
+  "type": "minecraft:jigsaw",
+  "start_pool": "nova_structures:mangrove_witch_hut",
+  "biomes": [
+    "minecraft:mangrove_swamp",
+    "biomeswevegone:white_mangrove_marshes",
+    "biomeswevegone:cypress_wetlands"
+  ],
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_height": {
+    "absolute": 0
+  },
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    },
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:witch",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "step": "surface_structures",
+  "use_expansion_hack": true,
+  "max_distance_from_center": 80,
+  "size": 2,
+  "terrain_adaptation": "beard_box"
+}

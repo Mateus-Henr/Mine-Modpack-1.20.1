@@ -4,13 +4,13 @@
 	toggle_custom_regions = false
 	#Sets Terrablender region weight for the primary region.
 	#Range: 0 ~ 2147483646
-	primary_region_weight = 11
+	primary_region_weight = 33
 	#Sets Terrablender region weight for the secondary region.
 	#Range: 0 ~ 2147483646
-	secondary_region_weight = 8
+	secondary_region_weight = 24
 	#Sets Terrablender region weight for the rare region.
 	#Range: 0 ~ 2147483646
-	rare_region_weight = 1
+	rare_region_weight = 3
 	#Sets Terrablender region weight for Nether region.
 	#Range: 0 ~ 2147483646
 	nether_region_weight = 14

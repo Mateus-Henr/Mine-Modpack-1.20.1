@@ -1,0 +1,10 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' wolf_spotted_spawns. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:araucaria_savanna",
+    "biomeswevegone:baobab_savanna",
+    "biomeswevegone:ironwood_gour",
+    "biomeswevegone:firecracker_chaparral"
+  ]
+}

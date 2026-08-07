@@ -1,0 +1,10 @@
+{
+  "_comment": "Hearthbound: BWG coverage for fishofthieves:has_seapost, which fish_of_thieves-mc1.20.1-v3.3.0-fabric.jar ships as an explicit biome list (terralith/biomesoplenty/byg/RU named one by one), so BWG generated none of these structures. No byg: entries here, so BWG ids come from the climate classes this tag already covers. replace:false merges with the stock list. Regenerate with .claude/tools/gen-bwg-structure-tags.js.  ||  Hearthbound: RU coverage for fishofthieves:has_seapost, which fish_of_thieves-mc1.20.1-v3.3.0-fabric.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "biomeswevegone:dead_sea",
+    "biomeswevegone:lush_stacks",
+    "regions_unexplored:rocky_reef"
+  ]
+}

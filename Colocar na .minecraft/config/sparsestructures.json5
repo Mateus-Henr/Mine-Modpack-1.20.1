@@ -1,0 +1,70 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips: a spread factor can be a decimal number (such as 1.5)
+  //       a spread factor of 1 means all structure's placements are not modified (useful if you want to use only custom spread factors)
+  //       a spread factor above 1 means all structures are rarer
+  //       a spread factor below 1 means all structures are more common
+  //       a spread factor of 0 disables all structures entirely
+  //
+  // Hearthbound: 2 -> 1.5 -> 1 -> 1.25 -> back to **2** (the mod's own default) on 2026-08-06.
+  // Every structure is twice as rare as its mod intends. This is the strongest thinning the mod
+  // offers by default, and it is wanted here because the pack runs 38 structure namespaces and
+  // ~586 structures, so mod-default spacing crowds the map badly.
+  "spreadFactor": 2,
+
+  // Some structure mods/datapacks do not specify a custom salt or use the same salt for all their structures, which might cause structure overlap.
+  // Enabling this is supposed to reduce this phenomenon, as all structure sets will have their own salt, hashed from their id.
+  // If unsure, leave this enabled.
+  //
+  // Hearthbound: with 38 structure namespaces in the pack, per-id salting is what keeps different
+  // mods' structures from landing on top of one another, so leave it on.
+  "idBasedSalt": true,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    // example of the mansion being doubled in rarity (the mod's default)
+    // Hearthbound: left at the mod's shipped default. Now that the global factor is also 2 this
+    // entry is redundant — it matches the global. Kept so the intent survives if the global changes.
+    {
+      "structure": "minecraft:mansion",
+      "factor": 2
+    },
+    // --- Aether dimension: exempt from the global factor (factor 1 = placements unmodified) ---
+    // The Aether is a dimension you travel to deliberately rather than wander through, so the global
+    // rarity multiplier only made a short visit feel empty. Still meaningful at a global 1.25.
+    // All four sets gate on #aether:is_aether (the 4 skyroot biomes), so they cannot affect the Overworld.
+    {
+      "structure": "explore_ruins_aether:aether_structures",
+      "factor": 1
+    },
+    {
+      "structure": "aether:bronze_dungeon",
+      "factor": 1
+    },
+    {
+      "structure": "aether:silver_and_gold_dungeons",
+      "factor": 1
+    },
+    {
+      "structure": "aether:large_aercloud",
+      "factor": 1
+    },
+    // add the structures you want to modify in the format:
+    // (don't forget to remove "//", and use dots for decimal numbers)
+    //
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    //
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example: "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip: you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip: the same spread factors rules apply here (set to 0 to disable said structure)
+  ]
+}

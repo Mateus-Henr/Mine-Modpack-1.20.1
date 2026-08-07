@@ -1,0 +1,25 @@
+{
+  "_comment": "Hearthbound: BWG coverage for dungeons_arise:has_structure/small_prairie_house_biomes, which DungeonsArise-1.20.1-2.1.57-fabric-release.jar ships as an explicit biome list (terralith/biomesoplenty/byg/RU named one by one), so BWG generated none of these structures. No byg: entries here, so BWG ids come from the climate classes this tag already covers. replace:false merges with the stock list. Regenerate with .claude/tools/gen-bwg-structure-tags.js.  ||  Hearthbound: RU coverage for dungeons_arise:has_structure/small_prairie_house_biomes, which DungeonsArise-1.20.1-2.1.57-fabric-release.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:coconino_meadow",
+    "biomeswevegone:crimson_tundra",
+    "biomeswevegone:firecracker_chaparral",
+    "biomeswevegone:prairie",
+    "biomeswevegone:pumpkin_valley",
+    "biomeswevegone:rose_fields",
+    "biomeswevegone:temperate_grove",
+    "regions_unexplored:barley_fields",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:grassland",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:prairie",
+    "regions_unexplored:pumpkin_fields",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:shrubland"
+  ]
+}

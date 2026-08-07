@@ -1,0 +1,9 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' wolf_ashen_spawns. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:frosted_taiga",
+    "biomeswevegone:frosted_coniferous_forest",
+    "biomeswevegone:eroded_borealis"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_comment": "Hearthbound override of Farmer's Delight patch_wild_onions. Stock rarity_filter chance was 120 (1 patch attempt per 120 chunks) — far too sparse next to Croptopia, which places 15-30 crops in EVERY chunk. Lowered to 12. NOTE: the chance values in config/farmersdelight-common.toml are DEAD in the refabricated port — no class reads Configuration.CHANCE_WILD_*; worldgen comes only from these placed_feature JSONs.",
+  "feature": "farmersdelight:patch_wild_onions",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 12
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "farmersdelight:biome_tag",
+      "tag": "minecraft:is_overworld"
+    }
+  ]
+}

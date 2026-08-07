@@ -1,0 +1,16 @@
+{
+  "_comment": "Hearthbound: RU coverage for biomeswevegone:has_structure/prairie_house, which Oh-The-Biomes-Weve-Gone-Fabric-1.8.0.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "regions_unexplored:barley_fields",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:grassland",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:prairie",
+    "regions_unexplored:pumpkin_fields",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:shrubland"
+  ]
+}

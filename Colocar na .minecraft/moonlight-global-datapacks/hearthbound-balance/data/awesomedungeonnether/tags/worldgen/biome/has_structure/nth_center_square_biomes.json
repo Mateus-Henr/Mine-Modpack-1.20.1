@@ -1,0 +1,12 @@
+{
+  "_comment": "Hearthbound: RU coverage for awesomedungeonnether:has_structure/nth_center_square_biomes, which awesomedungeonnether-fabric-1.20.1-3.1.1.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are nether-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "regions_unexplored:blackstone_basin",
+    "regions_unexplored:glistering_meadow",
+    "regions_unexplored:infernal_holt",
+    "regions_unexplored:mycotoxic_undergrowth",
+    "regions_unexplored:redstone_abyss"
+  ]
+}

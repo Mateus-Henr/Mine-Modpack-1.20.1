@@ -1,0 +1,9 @@
+{
+  "_comment": "Hearthbound: RU coverage for nova_structures:collections/oak_structure_biomes, which dungeons-and-taverns-3.0.3.f.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. Ids repaired from the mod's own dead regions_unexplored: entries — RU's biomes renamed in 0.5.6, so this is the author's own intent restored. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "regions_unexplored:autumnal_maple_forest",
+    "regions_unexplored:flower_fields"
+  ]
+}

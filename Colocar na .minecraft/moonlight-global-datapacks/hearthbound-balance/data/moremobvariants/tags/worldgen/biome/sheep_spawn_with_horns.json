@@ -1,0 +1,11 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' sheep_spawn_with_horns. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:howling_peaks",
+    "biomeswevegone:shattered_glacier",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:red_rock_peaks",
+    "biomeswevegone:canadian_shield"
+  ]
+}

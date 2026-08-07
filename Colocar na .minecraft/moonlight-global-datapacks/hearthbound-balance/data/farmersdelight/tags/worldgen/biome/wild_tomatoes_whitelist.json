@@ -1,0 +1,33 @@
+{
+  "_comment": "Same convention gap as wild_rice_whitelist: FD reads #c:is_hot/overworld, RU and BWG both populate the old c:hot / c:climate_hot. Hot Overworld biomes from both mods listed explicitly. BWG's oceans (lush_stacks, dead_sea) and its icy shattered_glacier are excluded.",
+  "replace": false,
+  "values": [
+    "regions_unexplored:arid_mountains",
+    "regions_unexplored:baobab_savanna",
+    "regions_unexplored:dry_bushland",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:grassland",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:saguaro_desert",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:steppe",
+    "regions_unexplored:tropics",
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:windswept_desert",
+    "biomeswevegone:red_rock_peaks",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:rugged_badlands",
+    "biomeswevegone:sierra_badlands",
+    "biomeswevegone:araucaria_savanna",
+    "biomeswevegone:baobab_savanna",
+    "biomeswevegone:ironwood_gour",
+    "biomeswevegone:firecracker_chaparral",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest"
+  ]
+}

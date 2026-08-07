@@ -1,0 +1,18 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' additional_wolf_spawns. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:araucaria_savanna",
+    "biomeswevegone:baobab_savanna",
+    "biomeswevegone:ironwood_gour",
+    "biomeswevegone:firecracker_chaparral",
+    "biomeswevegone:red_rock_peaks",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:rugged_badlands",
+    "biomeswevegone:sierra_badlands"
+  ]
+}

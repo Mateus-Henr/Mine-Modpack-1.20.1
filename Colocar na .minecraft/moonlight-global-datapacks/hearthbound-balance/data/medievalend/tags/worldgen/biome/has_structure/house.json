@@ -1,0 +1,9 @@
+{
+  "_comment": "Hearthbound: Medieval Buildings [End Edition] gates house on minecraft:end_highlands + minecraft:end_midlands only. Nullscape overrides data/minecraft/dimension/the_end.json and its biome source places end_highlands but NOT end_midlands at all — most of the outer End is nullscape:shadowlands / crystal_peaks / void_barrens instead, so half this structure's intended placement simply did not exist. Nullscape's own minecraft:has_structure/end_city tag lists exactly these three biomes, so it considers all of them suitable for large structures; that is the authority used here rather than a guess.",
+  "replace": false,
+  "values": [
+    "nullscape:crystal_peaks",
+    "nullscape:shadowlands",
+    "nullscape:void_barrens"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "Hearthbound: Regions Unexplored + Oh The Biomes We've Gone biomes for Croptopia's saguaro. BWG ids translated from Croptopia's own byg: entries (the original BYG mod, which BWG succeeds) — authoritative, not guessed. RU ids preserved from the earlier RU pass. replace:false merges with Croptopia's own vanilla list.",
+  "replace": false,
+  "values": [
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:saguaro_desert",
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:firecracker_chaparral",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:windswept_desert"
+  ]
+}

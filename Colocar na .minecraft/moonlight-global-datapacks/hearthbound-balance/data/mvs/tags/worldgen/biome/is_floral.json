@@ -1,0 +1,27 @@
+{
+  "_comment": "Hearthbound: RU coverage for mvs:is_floral, which MoogsVoyagerStructures-1.20-5.0.8.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "regions_unexplored:alpha_grove",
+    "regions_unexplored:autumnal_maple_forest",
+    "regions_unexplored:bamboo_forest",
+    "regions_unexplored:barley_fields",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:grassland",
+    "regions_unexplored:magnolia_woodland",
+    "regions_unexplored:maple_forest",
+    "regions_unexplored:mauve_hills",
+    "regions_unexplored:orchard",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:prairie",
+    "regions_unexplored:pumpkin_fields",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:shrubland",
+    "regions_unexplored:silver_birch_forest",
+    "regions_unexplored:temperate_grove",
+    "regions_unexplored:willow_forest"
+  ]
+}

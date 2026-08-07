@@ -1,0 +1,22 @@
+{
+  "_comment": "Hearthbound: Regions Unexplored + Oh The Biomes We've Gone biomes for Croptopia's sweetpotato. Croptopia ships no byg: entries for this crop, so BWG ids were derived from the climate classes of its vanilla biomes (plains). RU ids preserved from the earlier RU pass. replace:false merges with Croptopia's own vanilla list.",
+  "replace": false,
+  "values": [
+    "regions_unexplored:barley_fields",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:grassland",
+    "regions_unexplored:highland_fields",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:prairie",
+    "regions_unexplored:shrubland",
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:coconino_meadow",
+    "biomeswevegone:crimson_tundra",
+    "biomeswevegone:prairie",
+    "biomeswevegone:pumpkin_valley",
+    "biomeswevegone:rose_fields",
+    "biomeswevegone:temperate_grove"
+  ]
+}

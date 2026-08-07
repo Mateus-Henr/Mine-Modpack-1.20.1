@@ -1,0 +1,14 @@
+{
+  "_comment": "Hearthbound: BWG biomes for WilderNature's spawns_patch_hazelnut_bush. WilderNature's bison/boar/deer/owl/hedgehog/turkey/cassowary tags resolve through #minecraft:is_forest and #minecraft:is_savanna, which BWG joins, so those need no patch. Only the tags WilderNature pins to literal vanilla biomes (plains, beach, peaks) are here.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:temperate_grove",
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:coconino_meadow",
+    "biomeswevegone:prairie",
+    "biomeswevegone:rose_fields",
+    "biomeswevegone:pumpkin_valley",
+    "biomeswevegone:crimson_tundra"
+  ]
+}

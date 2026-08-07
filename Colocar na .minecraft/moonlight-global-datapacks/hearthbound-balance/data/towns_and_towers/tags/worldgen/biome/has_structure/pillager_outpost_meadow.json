@@ -1,0 +1,15 @@
+{
+  "_comment": "Hearthbound: BWG coverage for towns_and_towers:has_structure/pillager_outpost_meadow, which Towns-and-Towers-1.12-Fabric+Forge.jar ships as an explicit biome list (terralith/biomesoplenty/byg/RU named one by one), so BWG generated none of these structures. No byg: entries here, so BWG ids come from the climate classes this tag already covers. replace:false merges with the stock list. Regenerate with .claude/tools/gen-bwg-structure-tags.js.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:coconino_meadow",
+    "biomeswevegone:crimson_tundra",
+    "biomeswevegone:firecracker_chaparral",
+    "biomeswevegone:prairie",
+    "biomeswevegone:pumpkin_valley",
+    "biomeswevegone:rose_fields",
+    "biomeswevegone:temperate_grove"
+  ]
+}

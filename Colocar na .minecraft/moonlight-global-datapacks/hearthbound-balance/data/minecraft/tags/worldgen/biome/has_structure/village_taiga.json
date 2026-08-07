@@ -1,0 +1,7 @@
+{
+  "_comment": "Hearthbound: Dungeons and Taverns' village_taiga override widened taiga-village placement to #nova_structures:collections/any_taiga. That override is deliberately outranked (see worldgen/structure/village_taiga.json), so its biome widening is folded back in here instead of being lost. Tags merge, so this adds to whatever LGC/vanilla/RU/BWG already put in the tag.",
+  "replace": false,
+  "values": [
+    "#nova_structures:collections/any_taiga"
+  ]
+}

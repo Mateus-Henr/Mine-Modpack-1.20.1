@@ -1,0 +1,14 @@
+{
+  "_comment": "Hearthbound: BWG coverage for mtr:has_structure/desert_biomes, which MoogsTemplesReimagined-1.20-1.1.3.jar ships as an explicit biome list (terralith/biomesoplenty/byg/RU named one by one), so BWG generated none of these structures. BWG ids translated from the mod's own byg: entries — the original BYG mod that BWG succeeds, so this is the author's intent. replace:false merges with the stock list. Regenerate with .claude/tools/gen-bwg-structure-tags.js.  ||  Hearthbound: RU coverage for mtr:has_structure/desert_biomes, which MoogsTemplesReimagined-1.20-1.1.3.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:windswept_desert",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:saguaro_desert"
+  ]
+}

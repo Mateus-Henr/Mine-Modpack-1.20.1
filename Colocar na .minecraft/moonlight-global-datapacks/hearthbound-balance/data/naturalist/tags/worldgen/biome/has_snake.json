@@ -1,0 +1,18 @@
+{
+  "_comment": "Hearthbound: BWG biomes for Naturalist's has_snake. BWG already inherits every tag-based Naturalist entry (#minecraft:is_forest / is_taiga / is_jungle / is_savanna / is_badlands / is_mountain), so only the entries Naturalist gates on the LITERAL vanilla biomes minecraft:swamp, minecraft:plains and minecraft:desert are patched here — no modded biome can ever join those. Mirrors the same gap RU was patched for.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:bayou",
+    "biomeswevegone:cypress_swamplands",
+    "biomeswevegone:cypress_wetlands",
+    "biomeswevegone:white_mangrove_marshes",
+    "biomeswevegone:temperate_grove",
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:coconino_meadow",
+    "biomeswevegone:prairie",
+    "biomeswevegone:rose_fields",
+    "biomeswevegone:pumpkin_valley",
+    "biomeswevegone:crimson_tundra"
+  ]
+}

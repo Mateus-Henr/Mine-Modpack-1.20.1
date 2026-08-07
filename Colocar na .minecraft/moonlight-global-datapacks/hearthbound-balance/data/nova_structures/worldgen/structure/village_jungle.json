@@ -1,0 +1,27 @@
+{
+  "_comment": "Hearthbound: dungeons-and-taverns-3.0.3.f.jar hardcodes this structure's biomes as an INLINE list, so no datapack tag merge can reach it — it generated ONLY in minecraft:sparse_jungle, in RU territory as much as in BWG's. Full-file override, identical to stock except the biomes list. a jungle village — extended to RU and BWG tropical biomes. Re-derive from the jar with .claude/tools/gen-inline-structure-overrides.js if the mod updates.",
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "minecraft:sparse_jungle",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropics",
+    "regions_unexplored:bamboo_forest",
+    "regions_unexplored:eucalyptus_forest",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest"
+  ],
+  "max_distance_from_center": 80,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "size": 6,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "minecraft:jungle_village/town_center",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": true
+}

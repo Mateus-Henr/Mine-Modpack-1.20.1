@@ -1,0 +1,16 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' increased_sandy_skeletons. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:windswept_desert",
+    "biomeswevegone:red_rock_peaks",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:rugged_badlands",
+    "biomeswevegone:sierra_badlands",
+    "biomeswevegone:dacite_shore",
+    "biomeswevegone:basalt_barrera",
+    "biomeswevegone:rainbow_beach"
+  ]
+}

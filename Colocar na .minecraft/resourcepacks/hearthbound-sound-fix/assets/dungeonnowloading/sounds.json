@@ -1,0 +1,10 @@
+{
+  "hike": {
+    "sounds": [
+      {
+        "name": "dungeonnowloading:music/hike_callister_corvus",
+        "stream": true
+      }
+    ]
+  }
+}

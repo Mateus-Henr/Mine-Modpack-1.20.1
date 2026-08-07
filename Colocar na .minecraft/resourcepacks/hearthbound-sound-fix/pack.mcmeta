@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Hearthbound Sound Fix — defines 5 sound events that Dungeon Now Loading and Deeper Darker register in code but never declare in their own sounds.json. Missing music events resolve to a null SoundInstance, which crashes any mod hooking SoundEngine.play without a null check (Tree Harvester, Dynamic FPS)."
+  }
+}

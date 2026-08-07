@@ -1,0 +1,9 @@
+{
+  "_comment": "Hearthbound: BWG biomes for WilderNature's spawns_pelican. WilderNature's bison/boar/deer/owl/hedgehog/turkey/cassowary tags resolve through #minecraft:is_forest and #minecraft:is_savanna, which BWG joins, so those need no patch. Only the tags WilderNature pins to literal vanilla biomes (plains, beach, peaks) are here.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:dacite_shore",
+    "biomeswevegone:basalt_barrera",
+    "biomeswevegone:rainbow_beach"
+  ]
+}

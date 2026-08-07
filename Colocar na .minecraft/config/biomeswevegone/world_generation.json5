@@ -55,7 +55,10 @@
 		"biomeswevegone:cypress_swamplands": true,
 	},
 	// How much each BWG region weighs. This weight applies to all 3 BWG Regions
-	"region_weight": 8,
+	// Hearthbound: 8 -> 25. BWG total = 3 x 25 = 75. With RU at 60 (33/24/3) and
+	// terrablender.toml vanilla_overworld_region_weight = 15, the split is
+	// 75/150 = 50% BWG, 60/150 = 40% RU, 15/150 = 10% vanilla. See CLAUDE.md.
+	"region_weight": 25,
 	// Whether to add bwg flowers and features to Vanilla Biomes (Config Option for Fabric Only)
 	"vanilla_additions": true,
 	// BWG Features that we add to Vanilla Biomes

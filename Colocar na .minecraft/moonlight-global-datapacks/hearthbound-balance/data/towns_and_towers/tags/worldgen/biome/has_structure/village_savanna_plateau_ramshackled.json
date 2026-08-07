@@ -1,0 +1,13 @@
+{
+  "_comment": "Hearthbound: BWG coverage for towns_and_towers:has_structure/village_savanna_plateau_ramshackled, which Towns-and-Towers-1.12-Fabric+Forge.jar ships as an explicit biome list (terralith/biomesoplenty/byg/RU named one by one), so BWG generated none of these structures. No byg: entries here, so BWG ids come from the climate classes this tag already covers. replace:false merges with the stock list. Regenerate with .claude/tools/gen-bwg-structure-tags.js.  ||  Hearthbound: RU coverage for towns_and_towers:has_structure/village_savanna_plateau_ramshackled, which Towns-and-Towers-1.12-Fabric+Forge.jar ships as an explicit biome list, so Regions Unexplored generated none of these structures. No dead RU entries here, so ids come from the climate classes this tag already covers. All ids are overworld-dimension only. replace:false merges with the stock list. Regenerate with .claude/tools/gen-ru-structure-tags.js.",
+  "_hearthbound_ru": true,
+  "replace": false,
+  "values": [
+    "biomeswevegone:araucaria_savanna",
+    "biomeswevegone:baobab_savanna",
+    "biomeswevegone:ironwood_gour",
+    "regions_unexplored:baobab_savanna",
+    "regions_unexplored:dry_bushland",
+    "regions_unexplored:steppe"
+  ]
+}

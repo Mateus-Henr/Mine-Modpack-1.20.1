@@ -1,0 +1,19 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' wolf_woods_spawns. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:sakura_grove",
+    "biomeswevegone:ebony_woods",
+    "biomeswevegone:enchanted_tangle",
+    "biomeswevegone:forgotten_forest",
+    "biomeswevegone:orchard",
+    "biomeswevegone:overgrowth_woodlands",
+    "biomeswevegone:redwood_thicket",
+    "biomeswevegone:skyris_vale",
+    "biomeswevegone:weeping_witch_forest",
+    "biomeswevegone:zelkova_forest",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:dacite_ridges",
+    "biomeswevegone:canadian_shield"
+  ]
+}

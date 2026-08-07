@@ -1,0 +1,14 @@
+{
+  "_comment": "Hearthbound: BWG biomes for More Mob Variants' spawn_mossy_skeletons. MMV ships explicit vanilla+RU biome lists with no tag indirection, so BWG gets nothing without this. Chosen to match the climate/colour intent of MMV's own list for this variant.",
+  "replace": false,
+  "values": [
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:bayou",
+    "biomeswevegone:cypress_swamplands",
+    "biomeswevegone:cypress_wetlands",
+    "biomeswevegone:white_mangrove_marshes"
+  ]
+}
