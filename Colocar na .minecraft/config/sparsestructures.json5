@@ -8,11 +8,13 @@
   //       a spread factor below 1 means all structures are more common
   //       a spread factor of 0 disables all structures entirely
   //
-  // Hearthbound: 2 -> 1.5 -> 1 -> 1.25 -> back to **2** (the mod's own default) on 2026-08-06.
-  // Every structure is twice as rare as its mod intends. This is the strongest thinning the mod
-  // offers by default, and it is wanted here because the pack runs 38 structure namespaces and
-  // ~586 structures, so mod-default spacing crowds the map badly.
-  "spreadFactor": 2,
+  // Hearthbound: 2 -> 1.5 -> 1 -> 1.25 -> 2 -> **1.25** again on 2026-08-08.
+  // Set back to 1.25 after the user reported barely finding structures while exploring a server.
+  // At 2 every structure was twice as rare as its mod intends, which is the strongest thinning the
+  // mod offers; combined with 38 structure namespaces spread over a 150-weight TerraBlender
+  // Overworld it made exploration feel empty rather than curated. 1.25 keeps a mild anti-crowding
+  // bias while restoring roughly 60% more structures per unit area than 2 did.
+  "spreadFactor": 1.25,
 
   // Some structure mods/datapacks do not specify a custom salt or use the same salt for all their structures, which might cause structure overlap.
   // Enabling this is supposed to reduce this phenomenon, as all structure sets will have their own salt, hashed from their id.
@@ -25,8 +27,8 @@
   // this is a list of custom spread factors
   "customSpreadFactors": [
     // example of the mansion being doubled in rarity (the mod's default)
-    // Hearthbound: left at the mod's shipped default. Now that the global factor is also 2 this
-    // entry is redundant — it matches the global. Kept so the intent survives if the global changes.
+    // Hearthbound: left at the mod's shipped default. With the global back at 1.25 this entry is
+    // meaningful again — mansions stay at 2x rarity while everything else loosens to 1.25x.
     {
       "structure": "minecraft:mansion",
       "factor": 2
@@ -34,6 +36,7 @@
     // --- Aether dimension: exempt from the global factor (factor 1 = placements unmodified) ---
     // The Aether is a dimension you travel to deliberately rather than wander through, so the global
     // rarity multiplier only made a short visit feel empty. Still meaningful at a global 1.25.
+    // (Kept at 1 across the 2->1.25 change: the Aether should stay at mod-intended density.)
     // All four sets gate on #aether:is_aether (the 4 skyroot biomes), so they cannot affect the Overworld.
     {
       "structure": "explore_ruins_aether:aether_structures",
