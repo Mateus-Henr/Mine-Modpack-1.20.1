@@ -33,6 +33,16 @@
       "structure": "minecraft:mansion",
       "factor": 2
     },
+    // --- Villages: exempt from the global factor (added 2026-08-22) ---
+    // Luki's Grand Capitals OVERRIDES data/minecraft/worldgen/structure_set/villages.json and sets
+    // spacing 50 / separation 35, against vanilla's 34 / 8. The global 1.25 was then multiplying
+    // that again to roughly 62 / 43, making villages about 3.3x rarer BY AREA than vanilla -
+    // which is why they had become hard to find at all. Factor 1 stops the compounding and leaves
+    // villages at the spacing LGC actually intends for its larger capitals.
+    {
+      "structure": "minecraft:villages",
+      "factor": 1
+    },
     // --- Aether dimension: exempt from the global factor (factor 1 = placements unmodified) ---
     // The Aether is a dimension you travel to deliberately rather than wander through, so the global
     // rarity multiplier only made a short visit feel empty. Still meaningful at a global 1.25.

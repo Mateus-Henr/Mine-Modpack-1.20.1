@@ -1,0 +1,27 @@
+{
+  "type": "lithostitched:add_biome_spawns",
+  "biomes": [
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:windswept_desert",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:saguaro_desert",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropics"
+  ],
+  "spawners": [
+    {
+      "type": "knightquest:ratman",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

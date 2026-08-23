@@ -1,5 +1,5 @@
 {
-  "_comment": "Mobs of Mythology spawns kobold and kobold_warrior via BiomeContext.hasTag(c:badlands); the mod's Forge-side equivalent for the same field is forge:is_dry, so the intended semantics are 'dry biomes', not strictly mesa. On Fabric c:badlands is populated only by fabric-convention-tags-v1 (nested inside fabric-api) as #c:mesa + #minecraft:is_badlands, and Regions Unexplored joins neither, so zero RU biomes were in it and kobolds could only spawn in the ~25% of Overworld land RU does not own. Added the 7 members of RU's own c:climate_dry tag that are also in minecraft:is_overworld — using RU's own classification rather than guessing. The other 5 climate_dry entries (mycotoxic_undergrowth, blackstone_basin, infernal_holt, glistering_meadow, redstone_abyss) are Nether biomes and were deliberately excluded.",
+  "_comment": "Mobs of Mythology spawns kobold and kobold_warrior via BiomeContext.hasTag(c:badlands); the mod's Forge-side equivalent for the same field is forge:is_dry, so the intended semantics are 'dry biomes', not strictly mesa. On Fabric c:badlands is populated only by fabric-convention-tags-v1 (nested inside fabric-api) as #c:mesa + #minecraft:is_badlands, and neither Regions Unexplored nor Oh The Biomes We've Gone joins it. RU half added 2026-08-04: the 7 members of RU's own c:climate_dry tag that are also in minecraft:is_overworld (the other 5 climate_dry entries are Nether biomes and were deliberately excluded). BWG half added 2026-08-20: BWG's own #biomeswevegone:badlands (4), :desert (3) and :savanna (3) tags — BWG delegates minecraft:is_badlands to that first tag, so this follows BWG's own classification. Before the BWG half, kobolds and everything else keyed on c:badlands — Friends&Foes' badlands_mauler, and badlands structure gates in nova_structures / repurposed_structures / mtr / yungsbridges / bettermineshafts — reached zero of BWG's 10 arid biomes, i.e. none of the 50% of Overworld land BWG owns.",
   "replace": false,
   "values": [
     "regions_unexplored:arid_mountains",
@@ -8,6 +8,9 @@
     "regions_unexplored:joshua_desert",
     "regions_unexplored:outback",
     "regions_unexplored:saguaro_desert",
-    "regions_unexplored:steppe"
+    "regions_unexplored:steppe",
+    "#biomeswevegone:badlands",
+    "#biomeswevegone:desert",
+    "#biomeswevegone:savanna"
   ]
 }

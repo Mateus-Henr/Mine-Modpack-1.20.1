@@ -1,0 +1,21 @@
+{
+  "type": "lithostitched:add_biome_spawns",
+  "biomes": [
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropics"
+  ],
+  "spawners": [
+    {
+      "type": "knightquest:bad_patch",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

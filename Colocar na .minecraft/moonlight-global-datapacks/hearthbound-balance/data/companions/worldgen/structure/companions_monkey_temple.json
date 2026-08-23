@@ -1,0 +1,32 @@
+{
+  "_comment": "Hearthbound: companions-fabric-1.20.1-1.3.2.jar hardcodes this structure's biomes as an INLINE list, so no datapack tag merge can reach it — it generated ONLY in minecraft:jungle, in RU territory as much as in BWG's. Full-file override, identical to stock except the biomes list. a jungle temple — extended to RU and BWG tropical biomes. Re-derive from the jar with .claude/tools/gen-inline-structure-overrides.js if the mod updates.",
+  "type": "minecraft:jigsaw",
+  "start_pool": "companions:companions_pools/companions_monkey_temple_pool",
+  "size": 3,
+  "max_distance_from_center": 100,
+  "biomes": [
+    "minecraft:jungle",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropics",
+    "regions_unexplored:bamboo_forest",
+    "regions_unexplored:eucalyptus_forest",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest"
+  ],
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 0
+  },
+  "terrain_adaptation": "beard_thin",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "lithostitched:add_biome_spawns",
+  "biomes": [
+    "biomeswevegone:basalt_barrera",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:dacite_shore",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:rainbow_beach",
+    "biomeswevegone:tropical_rainforest",
+    "regions_unexplored:cold_river",
+    "regions_unexplored:eucalyptus_forest",
+    "regions_unexplored:grassy_beach",
+    "regions_unexplored:gravel_beach",
+    "regions_unexplored:muddy_river",
+    "regions_unexplored:rainforest",
+    "regions_unexplored:sparse_rainforest",
+    "regions_unexplored:tropical_river",
+    "regions_unexplored:tropics"
+  ],
+  "spawners": [
+    {
+      "type": "knightquest:swampman",
+      "weight": 15,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

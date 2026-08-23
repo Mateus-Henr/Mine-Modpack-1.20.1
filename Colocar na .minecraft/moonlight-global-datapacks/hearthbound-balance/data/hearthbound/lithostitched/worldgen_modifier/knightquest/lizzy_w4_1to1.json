@@ -1,0 +1,19 @@
+{
+  "type": "lithostitched:add_biome_spawns",
+  "biomes": [
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:windswept_desert",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:saguaro_desert"
+  ],
+  "spawners": [
+    {
+      "type": "knightquest:lizzy",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

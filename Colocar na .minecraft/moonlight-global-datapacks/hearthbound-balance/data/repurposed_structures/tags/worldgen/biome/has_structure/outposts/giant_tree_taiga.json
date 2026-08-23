@@ -1,8 +1,0 @@
-{
-  "_comment": "Hearthbound: BWG coverage for repurposed_structures:has_structure/outposts/giant_tree_taiga, which repurposed_structures-7.1.24+1.20.1-fabric.jar ships as an explicit biome list (terralith/biomesoplenty/byg/RU named one by one), so BWG generated none of these structures. No byg: entries here, so BWG ids come from the climate classes this tag already covers. replace:false merges with the stock list. Regenerate with .claude/tools/gen-bwg-structure-tags.js.",
-  "replace": false,
-  "values": [
-    "biomeswevegone:frosted_taiga",
-    "biomeswevegone:maple_taiga"
-  ]
-}

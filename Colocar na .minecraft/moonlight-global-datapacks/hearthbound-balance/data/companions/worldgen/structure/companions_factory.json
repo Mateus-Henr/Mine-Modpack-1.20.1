@@ -1,0 +1,46 @@
+{
+  "_comment": "Hearthbound: companions-fabric-1.20.1-1.3.2.jar hardcodes this structure's biomes as an INLINE list, so no datapack tag merge can reach it — it generated ONLY in minecraft:plains, in RU territory as much as in BWG's. Full-file override, identical to stock except the biomes list. a plains pillager factory — extended to RU and BWG grassland/meadow biomes. Re-derive from the jar with .claude/tools/gen-inline-structure-overrides.js if the mod updates.",
+  "type": "minecraft:jigsaw",
+  "start_pool": "companions:companions_pools/companions_factory_pool",
+  "size": 2,
+  "max_distance_from_center": 80,
+  "biomes": [
+    "minecraft:plains",
+    "regions_unexplored:grassland",
+    "regions_unexplored:prairie",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:barley_fields",
+    "regions_unexplored:poppy_fields",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:highland_fields",
+    "regions_unexplored:rocky_meadow",
+    "regions_unexplored:shrubland",
+    "biomeswevegone:temperate_grove",
+    "biomeswevegone:allium_shrubland",
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:coconino_meadow",
+    "biomeswevegone:prairie",
+    "biomeswevegone:rose_fields",
+    "biomeswevegone:pumpkin_valley"
+  ],
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 0
+  },
+  "terrain_adaptation": "beard_thin",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:pillager",
+          "maxCount": 2,
+          "minCount": 1,
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

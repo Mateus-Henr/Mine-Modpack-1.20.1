@@ -1,0 +1,43 @@
+{
+  "type": "lithostitched:add_biome_spawns",
+  "biomes": [
+    "biomeswevegone:aspen_boreal",
+    "biomeswevegone:black_forest",
+    "biomeswevegone:canadian_shield",
+    "biomeswevegone:cika_woods",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:dacite_ridges",
+    "biomeswevegone:ebony_woods",
+    "biomeswevegone:enchanted_tangle",
+    "biomeswevegone:eroded_borealis",
+    "biomeswevegone:forgotten_forest",
+    "biomeswevegone:frosted_coniferous_forest",
+    "biomeswevegone:howling_peaks",
+    "biomeswevegone:orchard",
+    "biomeswevegone:overgrowth_woodlands",
+    "biomeswevegone:redwood_thicket",
+    "biomeswevegone:sakura_grove",
+    "biomeswevegone:skyris_vale",
+    "biomeswevegone:weeping_witch_forest",
+    "biomeswevegone:zelkova_forest",
+    "regions_unexplored:alpha_grove",
+    "regions_unexplored:autumnal_maple_forest",
+    "regions_unexplored:bamboo_forest",
+    "regions_unexplored:deciduous_forest",
+    "regions_unexplored:magnolia_woodland",
+    "regions_unexplored:maple_forest",
+    "regions_unexplored:mauve_hills",
+    "regions_unexplored:orchard",
+    "regions_unexplored:silver_birch_forest",
+    "regions_unexplored:temperate_grove",
+    "regions_unexplored:willow_forest"
+  ],
+  "spawners": [
+    {
+      "type": "knightquest:lizzy",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

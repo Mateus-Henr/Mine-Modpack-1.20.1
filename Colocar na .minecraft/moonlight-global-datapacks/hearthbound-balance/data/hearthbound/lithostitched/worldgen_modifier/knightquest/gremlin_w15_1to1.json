@@ -1,0 +1,26 @@
+{
+  "type": "lithostitched:add_biome_spawns",
+  "biomes": [
+    "incendium:ash_barrens",
+    "incendium:infernal_dunes",
+    "incendium:inverted_forest",
+    "incendium:quartz_flats",
+    "incendium:toxic_heap",
+    "incendium:volcanic_deltas",
+    "incendium:weeping_valley",
+    "incendium:withered_forest",
+    "regions_unexplored:blackstone_basin",
+    "regions_unexplored:glistering_meadow",
+    "regions_unexplored:infernal_holt",
+    "regions_unexplored:mycotoxic_undergrowth",
+    "regions_unexplored:redstone_abyss"
+  ],
+  "spawners": [
+    {
+      "type": "knightquest:gremlin",
+      "weight": 15,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}
