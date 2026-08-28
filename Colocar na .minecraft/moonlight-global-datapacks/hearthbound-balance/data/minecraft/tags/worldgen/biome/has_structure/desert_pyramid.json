@@ -1,0 +1,21 @@
+{
+  "_comment": "Hearthbound (End Remastered eye coverage): widens minecraft:has_structure/desert_pyramid, which gates endrem:old_eye. Towns & Towers ships this tag with \"replace\": true and a value list of minecraft:desert plus two ids from mods this pack does not have, so it DELETES the three deserts Regions Unexplored adds and everything BWG adds. Desert pyramids were reaching one vanilla biome inside the 10% of the Overworld that is vanilla at all, and endrem:old_eye is only in their chests (10%) and simple dungeons. These are the modded deserts, nothing else. replace:false merges on top of whatever the jars ended up with, and this datapack loads after mod jars, so it also lands on top of a mod's replace:true. Regenerate with .claude/tools/gen-endrem-eye-coverage.js; measure with .claude/tools/endrem-eye-audit.js.",
+  "_hearthbound_endrem": true,
+  "_hearthbound_endrem_added": [
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:windswept_desert",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:saguaro_desert"
+  ],
+  "replace": false,
+  "values": [
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:windswept_desert",
+    "regions_unexplored:joshua_desert",
+    "regions_unexplored:outback",
+    "regions_unexplored:saguaro_desert"
+  ]
+}
