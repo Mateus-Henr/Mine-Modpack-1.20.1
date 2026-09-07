@@ -33,16 +33,11 @@
       "structure": "minecraft:mansion",
       "factor": 2
     },
-    // --- Villages: exempt from the global factor (added 2026-08-22) ---
-    // Luki's Grand Capitals OVERRIDES data/minecraft/worldgen/structure_set/villages.json and sets
-    // spacing 50 / separation 35, against vanilla's 34 / 8. The global 1.25 was then multiplying
-    // that again to roughly 62 / 43, making villages about 3.3x rarer BY AREA than vanilla -
-    // which is why they had become hard to find at all. Factor 1 stops the compounding and leaves
-    // villages at the spacing LGC actually intends for its larger capitals.
-    {
-      "structure": "minecraft:villages",
-      "factor": 1
-    },
+    // Hearthbound: a "minecraft:villages" factor:1 entry lived here 2026-08-22 through 2026-09-07,
+    // added to cancel out Luki's Grand Capitals' own structure_set override (spacing 50/35 vs
+    // vanilla 34/8) so the global factor wouldn't compound on top of it. LGC was removed
+    // 2026-09-07 and nothing else overrides villages.json, so villages are back to vanilla spacing
+    // and get the normal global 1.25 like everything else — no exemption needed any more.
     // --- Aether dimension: exempt from the global factor (factor 1 = placements unmodified) ---
     // The Aether is a dimension you travel to deliberately rather than wander through, so the global
     // rarity multiplier only made a short visit feel empty. Still meaningful at a global 1.25.
