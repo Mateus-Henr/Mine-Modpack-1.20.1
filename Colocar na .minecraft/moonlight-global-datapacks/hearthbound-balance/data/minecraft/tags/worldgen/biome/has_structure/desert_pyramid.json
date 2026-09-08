@@ -3,19 +3,11 @@
   "_hearthbound_endrem": true,
   "_hearthbound_endrem_added": [
     "biomeswevegone:atacama_outback",
-    "biomeswevegone:mojave_desert",
-    "biomeswevegone:windswept_desert",
-    "regions_unexplored:joshua_desert",
-    "regions_unexplored:outback",
-    "regions_unexplored:saguaro_desert"
+    "biomeswevegone:windswept_desert"
   ],
   "replace": false,
   "values": [
     "biomeswevegone:atacama_outback",
-    "biomeswevegone:mojave_desert",
-    "biomeswevegone:windswept_desert",
-    "regions_unexplored:joshua_desert",
-    "regions_unexplored:outback",
-    "regions_unexplored:saguaro_desert"
+    "biomeswevegone:windswept_desert"
   ]
 }
