@@ -1,0 +1,82 @@
+{
+  "_comment": "Mebahel's Dwarven Automatons gates end_dwarven_observatory on the single literal biome minecraft:end_highlands. This pack's End is BetterEnd (BCLib generator.json has fixEndBiomeSource true), which keeps the 5 vanilla End biomes as registry entries but adds 37 of its own, 25 of them in #minecraft:is_end. So end_highlands is no longer most of the outer End -- it is roughly one biome in twenty-six, and the observatory went from a normal find to a near-impossible one. It is not dead, just heavily diluted; that distinction matters, because the fix is proportion, not rescue. Added 2026-09-09: BetterEnd's 19 surface/land biomes. The 6 cave biomes (empty_aurora_cave, empty_end_cave, empty_smaragdant_cave, jade_cave, lush_aurora_cave, lush_smaragdant_cave) are deliberately left out -- the observatory is a surface_structures jigsaw. This restores the vanilla-equivalent share of the outer End rather than widening past it, the same principle hard rule #9 records for End Remastered's eye coverage. This is a plain replace:false tag merge, which reaches the mod's own has_structure tag; no full-file structure override is needed here (contrast Souls Like Bosses, whose six structures use inline literal biome arrays and needed gen-inline-structure-overrides.js). NOTE: gen-bwg-structure-tags.js overwrites the tag files it touches rather than merging. It is aimed at Overworld structures, but if a future run ever claims this path, re-apply this file afterwards -- run order stays BWG then RU then endrem. This is one instance of the wider BetterEnd rule #9 pass that CLAUDE.md still lists as OPEN; other End structures gated on literal minecraft:end_* biomes (Medieval Buildings End Edition especially) have NOT been done.",
+  "replace": false,
+  "values": [
+    {
+      "id": "betterend:amber_land",
+      "required": false
+    },
+    {
+      "id": "betterend:blossoming_spires",
+      "required": false
+    },
+    {
+      "id": "betterend:chorus_forest",
+      "required": false
+    },
+    {
+      "id": "betterend:crystal_mountains",
+      "required": false
+    },
+    {
+      "id": "betterend:dragon_graveyards",
+      "required": false
+    },
+    {
+      "id": "betterend:dry_shrubland",
+      "required": false
+    },
+    {
+      "id": "betterend:dust_wastelands",
+      "required": false
+    },
+    {
+      "id": "betterend:foggy_mushroomland",
+      "required": false
+    },
+    {
+      "id": "betterend:glowing_grasslands",
+      "required": false
+    },
+    {
+      "id": "betterend:ice_starfield",
+      "required": false
+    },
+    {
+      "id": "betterend:lantern_woods",
+      "required": false
+    },
+    {
+      "id": "betterend:megalake",
+      "required": false
+    },
+    {
+      "id": "betterend:megalake_grove",
+      "required": false
+    },
+    {
+      "id": "betterend:neon_oasis",
+      "required": false
+    },
+    {
+      "id": "betterend:painted_mountains",
+      "required": false
+    },
+    {
+      "id": "betterend:shadow_forest",
+      "required": false
+    },
+    {
+      "id": "betterend:sulphur_springs",
+      "required": false
+    },
+    {
+      "id": "betterend:umbra_valley",
+      "required": false
+    },
+    {
+      "id": "betterend:umbrella_jungle",
+      "required": false
+    }
+  ]
+}
